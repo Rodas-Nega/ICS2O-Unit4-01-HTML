@@ -1,0 +1,36 @@
+   <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Javascript Introduction">
+    <meta name="keywords" content="script, alert">
+    <meta name="author" content="Rodas Nega">
+    <meta name="viewport" content="width=device-width">
+    <title>Hello, World in Javascript!</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+  </head>
+  <body style="background-color:aliceblue">
+    <h1 style="text-align:center;">Hello, World!</h1>
+    <script> 
+      var txt = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit odio eu nisl scelerisque bibendum. Phasellus pharetra elit ut venenatis fermentum." 
+
+      document.write(txt.fontcolor("red")+ "</p>");
+      var txt = "Aliquam a orci in tortor posuere semper. Maecenas aliquam ipsum arcu, non molestie neque ornare sit amet. Phasellus dignissim erat sodales, volutpat nibh tristique, vestibulum nulla." 
+
+      document.write(txt.fontcolor("green")+ "</p>");
+      var txt = "Integer in fermentum tellus. Aenean risus sapien, auctor rhoncus lacus sit amet, cursus ultrices sapien. Cras in ante id ex mattis commodo. Sed consectetur odio egestas sapien ultricies, in luctus ligula rutrum."
+      document.write(txt.fontcolor("blue")+ "</p>");
+    </script>  
+      <!--Image-->
+      <button onclick="document.getElementById('myImage').src='images/Hello, World!.png'">Hello, World!</button>
+      <img style="width:500px" id="myImage">
+      <!--Text-->
+      <p id="lang1">Bonjour!</p>
+      <button onclick="french()">Try me out!</button>
+      <p id="lang2">Hello!</p>
+      <button onclick="english()">Try me out!</button>
+      <p id="lang3">Konnichiwa!</p>
+      <button onclick="japanese()">Try me out!</button>
+  </body>
+</html> 
